@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".amend">
+
+   <EditText
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:id="@+id/sname"
+       android:hint="Please Enter Name"/>
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsname"
+        android:layout_toRightOf="@+id/sname"
+        android:text="Search"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/dname"
+        android:layout_below="@+id/sname"
+        android:text="Name Here"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:id="@+id/dref"
+    android:layout_below="@+id/dname"
+    android:text="Reference Here"
+    android:textAppearance="?android:textAppearanceLarge"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/dtype"
+        android:layout_below="@+id/dref"
+        android:text="Type Of Crime"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+        android:id="@+id/ddesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/dtype"
+        android:text="Description Here"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+ <Button
+     android:id="@+id/btndelete"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="50dp"
+     android:layout_below="@+id/ddesc"
+     android:text="Delete Incident" />
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">product</string>
+    <string name="password">Password</string>
+    <string-array name="type">
+        <item>Murder</item>
+        <item>Manslaughter</item>
+        <item>Assault</item>
+        <item>Battery</item>
+        <item>Kidnapping</item>
+        <item>Rape</item>
+        <item>Buggery</item>
+        <item>Arson</item>
+        <item>Larceny</item>
+        <item>Robbery</item>
+        <item>Burglary</item>
+        <item>Trespass</item>
+        <item>Extortion</item>
+        <item>Cheating</item>
+        <item>Forgery</item>
+        <item>Contempt of Court</item>
+        <item>Conspiracy</item>
+        <item>Attempt</item>
+        <item>Other</item>
+
+
+    </string-array>
+</resources>
+
